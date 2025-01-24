@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(0, 0%, 42%);
+    --DarkGray: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "figtree", sans-serif;
+}
+
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: calc(100vh - 1px);
+}
+
+main {
+    background-color: var(--White);
+    padding: 1.5rem;
+    max-width: 375px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px black;
+    border: solid black;
+}
+
+.main {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+}
+
+button {
+    background-color: var(--Yellow);
+    padding: .3rem .7rem .3rem .7rem;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.date {
+    margin-bottom: 1.5rem;
+    color: var(--DarkGray);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1:active {
+    color: var(--Yellow);
+}
+
+.text {
+    margin-bottom: 1.5rem;
+    color: var(--LightGray);
+    font-weight: 600;
+}
+
+.pfp {
+    width: 50px;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 900;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
